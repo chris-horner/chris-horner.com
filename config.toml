@@ -44,9 +44,9 @@ theme = "hugo-creative-theme"
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "Who am I?"
+		description = "I'm a developer who likes to make cool things.<br/><br/>I studied games development at Swinburne University (comp sci / multimedia). In my final year, I focused on building Android games. Now I make apps.<br/><br/>I'm a currently lead Android developer at Melbourne based [Gridstone](//gridstone.com.au), where I've been building apps for four years."
+		buttonText  = "Which apps?"
 
 
 	# Service section
