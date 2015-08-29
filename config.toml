@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://127.0.0.1:1313/"
 languageCode = "en-us"
 title = "Chris Horner"
 theme = "hugo-creative-theme"
@@ -45,7 +45,7 @@ theme = "hugo-creative-theme"
 	# About section
 	[params.about]
 		headline    = "Who am I?"
-		description = "I'm a developer who likes to make cool things.<br/><br/>I studied games development at Swinburne University (comp sci / multimedia). In my final year, I focused on building Android games. Now I make apps.<br/><br/>I'm a currently lead Android developer at Melbourne based [Gridstone](//gridstone.com.au), where I've been building apps for four years."
+		description = "I'm a developer who likes to make cool things.<br/><br/>I studied games development at Swinburne University (comp sci / multimedia). In my final year I focused on building Android games. Now I make apps.<br/><br/>I'm currently lead Android developer at Melbourne based [Gridstone](//gridstone.com.au), where I've been building apps for four years."
 		buttonText  = "Which apps?"
 
 
@@ -73,6 +73,8 @@ theme = "hugo-creative-theme"
             title = "Made with Love"
             description = "You have to make your websites with love these days!"
 
+  [params.portfolio]
+        headline = "Portfolio"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -80,6 +82,7 @@ theme = "hugo-creative-theme"
         date = "Date"
         category = "Category"
         buttonText = "Close"
+        linkTitle = "View in Play Store"
 
     # Aside section
 	[params.aside]
