@@ -18,7 +18,7 @@ theme = "hugo-creative-theme"
 	# For more informtion take a look at the README.
 
 	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
+  # information about you and your website.
 	name = "Chris Horner"
 	description = "Android developer and designer"
 
@@ -29,8 +29,8 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
 			portfolio = "Portfolio"
+      blog = "Blog"
 			contact   = "Contact"
 
 
@@ -48,35 +48,10 @@ theme = "hugo-creative-theme"
 		description = "I'm a developer who likes to make cool things.<br/><br/>I studied games development at Swinburne University (comp sci / multimedia). In my final year I focused on building Android games. Now I make apps.<br/><br/>I'm currently lead Android developer at Melbourne based [Gridstone](//gridstone.com.au), where I've been building apps for four years."
 		buttonText  = "Which apps?"
 
-
-	# Service section
-	[params.services]
-		headline = "At your service"
-
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
-
   [params.portfolio]
         headline = "Portfolio"
 
-    # Portfolio modals
+  # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
         date = "Date"
@@ -84,13 +59,13 @@ theme = "hugo-creative-theme"
         buttonText = "Close"
         linkTitle = "View in Play Store"
 
-    # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+  # Blod section
+	[params.blog]
+		headline = "Blog"
+    description = "I also write about Android design and development."
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+		[params.blog.button]
+			text = "Read it"
 
 	# Contact section
 	[params.contact]
@@ -99,3 +74,4 @@ theme = "hugo-creative-theme"
     github = "chris-horner"
     stackoverflow = "1429699/chris-horner"
 		email = "**horner** *dot* **cd** *at* **gmail** *dot* **com**"
+
