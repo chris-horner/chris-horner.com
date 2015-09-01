@@ -79,62 +79,8 @@ aside {
     padding: 100px 0 0 0;
 }
 
-body.blog {
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-}
-
-.blog-navbar-text {
-    line-height: 20px !important;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #757575;
-}
-
-.blog-navbar-header {
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #f05f40;
-    line-height 50px;
-}
-
-.blog-navbar-default {
-    border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
-}
-
-a.blog-navbar-link {
-    color: #757575;
-}
-a.blog-navbar-link:hover,
-a.blog-navbar-link:focus {
-    color: #f05f40;
-}
-
-div.blog-item-link {
-  padding: 5px 15px;
-}
-div.blog-item-link:hover {
-    background-color: #F5F5F5;
-}
-.blog-item-link p {
-  color: #7D7D7D;
-  font-size: 15px;
-  max-width: 800px;
-}
-.blog-item-link:hover a {
-    text-decoration: none;
-    color: #eb3812;
-}
-.blog-item-link:hover h2 {
-    text-decoration: underline;
-}
-
-.navbar-default {
+.navbar-default,
+.navbar-blog {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
@@ -143,7 +89,8 @@ div.blog-item-link:hover {
     transition: all .35s;
 }
 
-.navbar-default .navbar-header .navbar-brand {
+.navbar-default .navbar-header .navbar-brand,
+.navbar-blog .navbar-blog-header .navbar-blog-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -151,12 +98,16 @@ div.blog-item-link:hover {
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-blog .navbar-blog-header .navbar-blog-brand:hover,
+.navbar-blog .navbar-blog-header .navbar-blog-brand:focus {
     color: #eb3812;
 }
 
 .navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
+.navbar-default .nav>li>a:focus,
+.navbar-blog .nav-blog > li>a,
+.navbar-blog .nav-blog>li>a:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
@@ -164,18 +115,24 @@ div.blog-item-link:hover {
 }
 
 .navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
+.navbar-default .nav>li>a:focus:hover,
+.navbar-blog .nav-blog > li>a:hover,
+.navbar-blog .navblog>li:a:focus:hover {
     color: #f05f40;
 }
 
 .navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
+.navbar-default .nav>li.active>a:focus
+.navbar-blog .nav-blog > li.active>a,
+.navbar-blog .nav-blog>li>active>a:focus {
     color: #f05f40!important;
     background-color: transparent;
 }
 
 .navbar-default .nav > li.active>a:hover,
-.navbar-default .nav>li.active>a:focus:hover {
+.navbar-default .nav>li.active>a:focus:hover,
+.navbar-blog .nav-blog > li.active>a:hover,
+.navbar-blog .nav-blog>li.active>a:focus:hover {
     background-color: transparent;
 }
 
