@@ -71,8 +71,6 @@ theme = "hugo-creative-theme"
 	# Contact section
 	[params.contact]
 		headline = "Contact"
-    twitter = "chadefarseer"
     github = "chris-horner"
-    stackoverflow = "1429699/chris-horner"
-		email = "**horner** *dot* **cd** *at* **gmail** *dot* **com**"
+    twitter = "chadefarseer"
 
