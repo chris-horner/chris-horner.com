@@ -15,7 +15,7 @@
                         <h2>{{ .title }}</h2>
                         <hr class="star-primary">
                         <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
-                        <p class="portfolio-modal-desc">{{ .description | markdownify }}</p>
+                        <p class="portfolio-modal-desc block-text">{{ .description | markdownify }}</p>
                         <p>
                         <a href="{{ .itemLink }}" class="play-link"><strong>{{ with $.Site.Params.portfolio.modal.linkTitle }}{{.}}{{ end}}</strong></a>
                         </p>

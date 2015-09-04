@@ -22,6 +22,7 @@ theme = "hugo-creative-theme"
 	name = "Chris Horner"
 	description = "Android developer and designer"
 
+  blogPath = "/blog"
 
 	# Navigation
 	[params.navigation]

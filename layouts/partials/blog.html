@@ -4,7 +4,7 @@
         <div class="call-to-action">
             <h2>{{ with .Site.Params.blog.headline }}{{ . }}{{ end }}</h2>
             <p class ="text-faded">{{ with .Site.Params.blog.description }}{{ . | markdownify }}{{ end }}</p>
-            <a href="#" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.blog.button.text }}{{ . }}{{ end }}</a>
+            <a href="{{ .Site.BaseUrl }}/blog" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.blog.button.text }}{{ . }}{{ end }}</a>
         </div>
     </div>
 </section>

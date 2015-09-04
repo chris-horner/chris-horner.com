@@ -16,7 +16,7 @@
         </nav>
         {{ range .Data.Pages }}
         <div class="blog-item-link">
-            <a href="#page-top">
+            <a href="{{ .Permalink }}">
                 <h2>{{ .Title }}</h2>
                 <p class="blog-item-summary">{{ .Summary }}</p>
                 <p class="blog-item-date">&mdash;{{ .Date.Format "Jan 1, 2006" }}</p>

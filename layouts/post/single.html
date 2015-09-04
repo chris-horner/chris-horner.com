@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top" class="blog">
+        <nav id="blogNav" class="navbar blog-navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+                <div class="blog-navbar-header">
+                    <a class="navbar-brand page-scroll" href="{{.Site.BaseUrl}}">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
+                </div>
+                <p class="navbar-text blog-navbar-text">
+                    <a href="{{ .Site.BaseUrl }}/blog" class="blog-navbar-link">Blog</a>
+                    <span>  /  </span>
+                    <a href="#paget-top" class="blog-navbar-link">{{ .Title }}</a>
+                    <!--<a href=#page-top" class="blog-navbar-link">{{ .Title }}</a>-->
+                </p>
+            </div>
+        </nav>
+        <div class="blog-title-and-content">
+            <div class=".blog-title">
+                <h1>{{ .Title }}</h1>
+                <p class="date">{{ .Date.Format "1 January 2006" }}</p>
+            </div>
+            <div class="block-text">
+                {{ .Content }}
+            </div>
+        </div>
+    </body>
+</html>

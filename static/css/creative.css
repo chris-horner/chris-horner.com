@@ -134,6 +134,26 @@ div.blog-item-link:hover {
     text-decoration: underline;
 }
 
+div.blog-title-and-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.block-text {
+    max-width: 900px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.blog-title {
+    margin-bottom: 25px;
+}
+
+.date {
+    color: #7D7D7D;
+    font-size: 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
