@@ -2,6 +2,8 @@ baseurl = "http://chrishorner.codes"
 languageCode = "en-us"
 title = "Chris Horner"
 theme = "hugo-creative-theme"
+pygmentsstyle = "colorful"
+# pygmentuseclasses= true
 
 [params]
 

@@ -23,7 +23,7 @@ Each application has different logic about how the map should be displayed on fi
 
 One approach might be to simply switch on a query to `BuildConfig.FLAVOR`.
 
-```java
+{{< highlight java >}}
 void setupMapCamera(Location location) {
   if (BuildConfig.FLAVOR.equals("alertsa") {
     moveCameraForSA(location);
@@ -31,23 +31,23 @@ void setupMapCamera(Location location) {
     moveCameraForAus(location);
   }
 }
-```
+{{< /highlight >}}
 
 However, this approach has a few drawbacks. Mainly, we now have code within our *main* folder that knows about build flavours. We also now have code that's flavour specific outside of the flavour specific source directories. Ideally, the code that handles the logic of displaying the camera should reside only in the *emergencyaus* and *alertsa* folders.
 
 To address this, we could create two utility classes with exactly the same name and method signatures in our flavour folders, giving us something like...
 
-```java
+{{< highlight java >}}
 public class MapCameraController {
   public static CameraUpdate getCameraUpdate(Location location) {
     // Flavour specific code here.
   }
 }
-```
+{{< /highlight >}}
 
 Now our flavour specific logic is housed in the correct directories, but our code is also particularly error prone. The class and method names must match exactly between projects (making refactoring a pain). We can't define an interface because we've chosen to use static methods. If we did want to use an interface we'd have to adopt a traditional Java singleton pattern...
 
-```java
+{{< highlight java >}}
 public class FlavouredCameraController implements MapCameraController {
   private static MapCameraController instance = new FlavouredMapCameraController();
 
@@ -61,7 +61,7 @@ public class FlavouredCameraController implements MapCameraController {
     // Flavour specific code here.
   }
 }
-```
+{{< /highlight >}}
 
 But now we have to duplicate this factory logic in each flavour, and traditional singletons just [plain suck](//stackoverflow.com/questions/137975/what-is-so-bad-about-singletons). This is where dependency injection comes in and magics our problems away.
 
@@ -69,17 +69,17 @@ I'm going to assume you're familiar with the concepts of *Dagger2* with the foll
 
 In each of our flavours, we can define a flavour specific module that provides our required dependencies. Our Alert SA module might look like...
 
-```java
+{{< highlight java >}}
 @Module public class FlavorModule {
   @Provides @Singleton MapCameraController provideMapCameraController(SaMapCameraController saController) {
     return saController;
   }
 }
-```
+{{< /highlight >}}
 
 One of our camera controlling classes can become...
 
-```java
+{{< highlight java >}}
 @Singleton public class SaMapCameraController implements MapCameraController {
   @Inject SaMapCameraController() {}
 
@@ -87,7 +87,7 @@ One of our camera controlling classes can become...
     // Alert SA specific camera code here.
   }
 }
-```
+{{< /highlight >}}
 
 ...and the code in our *main* folder knows nothing about the disparate behaviour between flavours. All it needs to do is `@Inject MapCameraController` and Dagger takes care of providing the correct implementation for the current build flavour.
 
