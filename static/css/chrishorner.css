@@ -71,6 +71,19 @@ div.blog-title-and-content {
     margin-bottom: 25px;
 }
 
+.blog-content img {
+    padding: 10px;
+}
+.blog-content ul {
+    font-size: 16px;
+}
+
+.signature {
+    margin-top: 20px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #7D7D7D;
+}
+
 .date {
     color: #7D7D7D;
     font-size: 15px;
@@ -81,5 +94,4 @@ div.blog-title-and-content {
     background: transparent url(/img/googleplay32.svg) scroll no-repeat left center;
     padding: 2px 0 0 35px;
 }
-
 
