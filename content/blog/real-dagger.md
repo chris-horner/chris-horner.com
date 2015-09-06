@@ -6,7 +6,7 @@ type = "post"
 
 +++
 
-*Dagger* and *Dagger2* may be things you've heard of if you're an Android developer. Dependency injection has been a pretty hot topic for a while now. Often the examples you see are solving complex architectural problems, or are too trivial to demonstrate applicability.
+*Dagger* and *Dagger2* may be things you've heard of if you're an Android developer. Dependency injection has been a hot topic for a while now. Often the examples you see are solving complex architectural problems, or are too trivial to demonstrate applicability.
 
 Let's look at a real world example of how *Dagger2* is used in Emergency AUS, and maybe spark some ideas for where Dagger could improve your existing code.
 <!--more-->
