@@ -1,5 +1,5 @@
 +++
-date = "2015-09-05T18:02:23+10:00"
+date = "2015-09-07T18:02:23+10:00"
 draft = false
 title = "Dagger2 in the Real World"
 type = "post"
@@ -11,11 +11,11 @@ type = "post"
 Let's look at a real world example of how *Dagger2* is used in Emergency AUS, and maybe spark some ideas for where Dagger could improve your existing code.
 <!--more-->
 
-<img src="/img/blog/ea-sa-comparison.png" class="pull-right" width="360" />
+<img src="../../img/blog/ea-sa-comparison.png" class="pull-right blog-pic" width="360" />
 
 ----
 
-[Emergency AUS](//play.google.com/store/apps/details?id=com.gridstone.emergencyaus) and [Alert SA](https://play.google.com/store/apps/details?id=au.gov.alert.sa) are two very similar applications. One provides information on events occurring Australia wide, while the other provides tailored information for just South Australia. Each app is defined by a [gradle build flavour](//tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Type-Product-Flavor-Build-Variant) residing in a single project.
+[Emergency AUS](//play.google.com/store/apps/details?id=com.gridstone.emergencyaus) and [Alert SA](https://play.google.com/store/apps/details?id=au.gov.alert.sa) from [Gridstone](//gridstone.com.au/work/emergency-aus) are two very similar applications. One provides information on events occurring Australia wide, while the other provides tailored information for just South Australia. Each app is defined by a [gradle build flavour](//tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Type-Product-Flavor-Build-Variant) residing in a single project.
 
 Build flavours make it easy to provide simple cosmetic customisations; it's straightforward to redefine `R.color.primary` and `R.string.app_name` between apps, but what about logic? In this example, we'll look at the differences in the map camera behaviour, and how Dagger can make our job of redefining it between apps easier.
 

@@ -1,4 +1,4 @@
-baseurl = "http://chrishorner.codes"
+baseurl = "http://chrishorner.codes/"
 languageCode = "en-us"
 title = "Chris Horner"
 theme = "hugo-creative-theme"
