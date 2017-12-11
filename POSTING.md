@@ -1,13 +1,18 @@
 Posting
 =======
 
-Simply execute
-```sh
-hugo new blog/{title}.md
+For a blog post
+```
+hugo new post/post-name.md
 ```
 
-Don't forget to add
-```html
-<!--more-->
+For a presentation
 ```
-at a certain point to ensure a summary is generated.
+hugo new presentation/presentation-name.md
+```
+
+For a portfolio piece
+```
+hugo new portfolio/piece-name.md
+```
+
