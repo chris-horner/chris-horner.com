@@ -1,9 +1,10 @@
-+++
-title = "The Whole Pantry"
-date = "2013-05-29T09:00:00+10:00"
-icon = "the-whole-pantry-launcher.png"
-screens = ["the-whole-pantry-screen1.png", "the-whole-pantry-screen2.png"]
-+++
+---
+title: "The Whole Pantry"
+date: "2013-05-29T09:00:00+10:00"
+icon: "the-whole-pantry-launcher.png"
+screens: ["the-whole-pantry-screen1.png", "the-whole-pantry-screen2.png"]
+draft: false
+---
 
 This was the first application I built as a freelance developer rather than with
 Gridstone. As an external contractor I in no way condone the actions of the client.

@@ -1,9 +1,10 @@
-+++
-title = "Emergency AUS"
-date = "2013-07-03T09:00:00+10:00"
-icon = "emergency-aus-launcher.png"
-screens = ["emergency-aus-screen1.png", "emergency-aus-screen2.png"]
-+++
+---
+title: "Emergency AUS"
+date: "2013-07-03T09:00:00+10:00"
+icon: "emergency-aus-launcher.png"
+screens: ["emergency-aus-screen1.png", "emergency-aus-screen2.png"]
+draft: false
+---
 
 Emergency AUS was the first application I developed at
 [Gridstone](//gridstone.com.au/). Version 2.0 of the application (as seen in the

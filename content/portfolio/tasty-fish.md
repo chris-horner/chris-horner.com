@@ -1,9 +1,10 @@
-+++
-title = "Tasty Fish"
-date = "2011-03-01T09:00:00+10:00"
-icon = "tasty-fish-launcher.png"
-screens = ["tasty-fish-screen1.png"]
-+++
+---
+title: "Tasty Fish"
+date: "2011-03-01T09:00:00+10:00"
+icon: "tasty-fish-launcher.png"
+screens: ["tasty-fish-screen1.png"]
+draft: false
+---
 
 Together with five other students at Swinburne University we built an Android game
 from the ground up called Tasty Fish. It was an ambitious final-year project, as we

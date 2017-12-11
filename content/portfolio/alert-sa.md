@@ -1,12 +1,13 @@
-+++
-title = "Alert SA"
-date = "2015-02-12T09:00:00+10:00"
-icon = "alert-sa-launcher.png"
-screens = ["alert-sa-screen1.png", "alert-sa-screen2.png"]
-+++
+---
+title: "Alert SA"
+date: "2015-02-12T09:00:00+10:00"
+icon: "alert-sa-launcher.png"
+screens: ["alert-sa-screen1.png", "alert-sa-screen2.png"]
+draft: false
+---
 
-At [Gridstone](//gridstone.com.au), I built the Alert SA Android app as part of
-a suite of applications for the South Australian Government. My colleagues also
+At [Gridstone](https://gridstone.com.au), I built the Alert SA Android app as part
+of a suite of applications for the South Australian Government. My colleagues also
 developed a [website](https://www.alert.sa.gov.au) and an
 [iOS app](https://itunes.apple.com/us/app/alert-sa/id998243397?ls=1&mt=8). The
 service aims to deliver information and warnings to those living in South Australia,

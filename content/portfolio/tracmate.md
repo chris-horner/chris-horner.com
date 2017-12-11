@@ -1,9 +1,10 @@
-+++
-title = "TRACmate"
-date ="2014-05-16T09:00:00+10:00"
-icon = "tracmate-launcher.png"
-screens = ["tracmate-screen1.png", "tracmate-screen2.png"]
-+++
+---
+title: "TRACmate"
+date: "2014-05-16T09:00:00+10:00"
+icon: "tracmate-launcher.png"
+screens: ["tracmate-screen1.png", "tracmate-screen2.png"]
+draft: false
+---
 
 Built with [Gridstone](//gridstone.com.au), TRACmate is a service that aids teams of
 people in coordinating, tracking, and managing their response to an incident. (Think
