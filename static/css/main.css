@@ -121,11 +121,22 @@ ul.nav-list {
 
 #content-inner-container {
   background-color: #FAFAFA;
-  padding: 2px 16px 8px 16px;
+  padding: 2px 12px 8px 12px;
   margin: 64px auto 0 auto;
   max-width: 100%;
   width: 900px;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  #content-inner-container {
+    background-color: #FAFAFA;
+    padding: 2px 32px 8px 32px;
+    margin: 64px auto 0 auto;
+    max-width: 100%;
+    width: 900px;
+    box-sizing: border-box;
+  } 
 }
 
 #list-inner-container {
