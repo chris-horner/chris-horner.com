@@ -6,7 +6,7 @@ conferenceLink: "https://www.gdgmelbourne.com/devfest-2018/"
 location: "Melbourne, VIC, Australia"
 youtube: ""
 speakerdeck: "https://speakerdeck.com/player/e2687c72f545490793517fecefb87d61"
-draft: true
+draft: false
 ---
 
 [RxJava](https://github.com/ReactiveX/RxJava) has become an invaluable tool to many Android
