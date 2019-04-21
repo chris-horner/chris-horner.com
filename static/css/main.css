@@ -37,7 +37,7 @@ header {
 
 header > h1 {
   text-transform: uppercase;
-  margin: 0 0 0 16px;
+  margin: 16px 0 0 16px;
   padding 0;
 }
 
@@ -72,6 +72,7 @@ ul.nav-list {
 
 .nav-list svg {
   vertical-align: middle;
+  margin-right: 4px;
 }
 
 .nav-list span {
@@ -337,5 +338,10 @@ section.slides-container {
     width: 900px;
     box-sizing: border-box;
   } 
+
+  .nav-list svg {
+    vertical-align: middle;
+    margin-right: 0px;
+  }
 }
 
