@@ -6,9 +6,13 @@ html, body {
 }
 
 body {
-  font-family: Sans-Serif;
+  font-family: "Verdana", "Open Sans", "Helvetica", Sans-Serif;
   display: flex;
   flex-direction: column;
+}
+
+p {
+  line-height: 1.4;
 }
 
 #home {
