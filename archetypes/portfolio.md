@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-icon = ""
-screens = []
+icon: ""
+screens: []
 draft: true
 ---
 
