@@ -1,6 +1,7 @@
 ---
 title: "Alert SA"
 date: "2015-02-12T09:00:00+10:00"
+blerb: "Emergency information for South Australia."
 icon: "alert-sa-launcher.png"
 screens: ["alert-sa-screen1.png", "alert-sa-screen2.png"]
 draft: false

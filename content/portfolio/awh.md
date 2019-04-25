@@ -1,6 +1,7 @@
 ---
 title: "AWH Timesheets"
 date: "2016-10-12T09:00:00+10:00"
+blerb: "Time tracking for Australian Wool Holdings."
 icon: "awh-launcher.png"
 screens: ["awh-screen1.png", "awh-screen2.png"]
 draft: false

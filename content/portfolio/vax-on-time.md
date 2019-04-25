@@ -1,6 +1,7 @@
 ---
 title: "VaxOnTime"
 date: "2015-10-23T09:00:00+10:00"
+blerb: "Schedule your child's vaccinations."
 icon: "vax-launcher.png"
 screens: ["vax-screen1.png", "vax-screen2.png"]
 draft: false

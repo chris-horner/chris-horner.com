@@ -1,6 +1,7 @@
 ---
 title: "TRACmate"
 date: "2014-05-16T09:00:00+10:00"
+blerb: "Organise responders to an emergency."
 icon: "tracmate-launcher.png"
 screens: ["tracmate-screen1.png", "tracmate-screen2.png"]
 draft: false
