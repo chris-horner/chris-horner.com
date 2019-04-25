@@ -211,11 +211,15 @@ span#date {
 }
 
 code:not(.language-java) {
-  font-size: large;
   background-color: #EEEEEE;
   color: #03A9F4;
   padding-left: 2px;
   padding-right: 2px;
+}
+
+code {
+  font-family: "Monaco", "Oxygen Mono", "Lucida Console", monospace;
+  font-size: medium;
 }
 
 pre {
@@ -231,6 +235,7 @@ pre {
 
 .highlight pre {
   overflow-x: auto;
+  padding: 12px;
 }
 
 .highlight pre code {
