@@ -1,7 +1,7 @@
 ---
 title: "The Whole Pantry"
 date: "2013-05-29T09:00:00+10:00"
-blerb: "A collection of vegan recipes."
+blurb: "A collection of vegan recipes."
 icon: "the-whole-pantry-launcher.png"
 screens: ["the-whole-pantry-screen1.png", "the-whole-pantry-screen2.png"]
 draft: false

@@ -2,7 +2,7 @@
 date = "2015-09-07T18:02:23+10:00"
 draft = false
 title = "Dagger2 in the Real World"
-blerb = "Let's look at a real world example of how Dagger2 is used in Emergency AUS, and maybe spark some ideas for where Dagger could improve your existing code."
+blurb = "Let's look at a real world example of how Dagger2 is used in Emergency AUS, and maybe spark some ideas for where Dagger could improve your existing code."
 +++
 
 *Dagger* and *Dagger2* may be things you've heard of if you're an Android developer.
