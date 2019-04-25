@@ -11,9 +11,20 @@
       <h2>{{ .Title }}</h2>
       <p class="subtitle">{{ .Params.subtitle }}</p>
       <hr/>
-      <ul id="portfolio-list">
+      <ul class="list">
         {{ range .Data.Pages }}
-        <li><a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}/img/{{ .Params.icon }}"/><span>{{ .Title }}</span></a></li>
+        <li>
+          <a href="{{ .Permalink }}">
+            <div class="portfolio-item">
+              <img src="{{ .Site.BaseURL }}/img/{{ .Params.icon }}"/>
+              <div>
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Params.blerb }}</p>
+                <span id="date">{{ .Date.Format "2006" }}</span>
+              </div>
+            </div>
+          </a>
+        </li>
         {{ end }}
       </ul>
     </div>

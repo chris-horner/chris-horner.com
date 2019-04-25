@@ -130,7 +130,7 @@ ul.nav-list {
 #list-inner-container {
   text-align: center;
   background-color: #FAFAFA;
-  padding: 2px 16px 8px 16px;
+  padding: 2px 0px 8px 0px;
   margin: 32px auto 0 auto;
   max-width: 100%;
   width: 600px;
@@ -140,61 +140,36 @@ ul.nav-list {
 ul.list {
   list-style-type: none;
   text-align: left;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 0;
 }
 
 .list a {
   text-decoration: none;
   color: #000000;
-  display: inline-block;
+  display: block;
+  padding: 8px 16px 16px 16px;
 }
 
 .list a:hover {
   color: #40C4FF;
+  background: #F5F5F5;
 }
 
 .list a:hover span {
   color: #40C4FF;
 }
 
-.list li {
-  margin-bottom: 16px;
+.portfolio-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-ul#portfolio-list {
-  list-style-type: none;
-  padding: 0;
-  display: inline-block;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#portfolio-list a {
-  text-decoration: none;
-  color: #000000;
-  display: inline-block;
-}
-
-#portfolio-list a:hover span {
-  color: #40C4FF;
-}
-
-#portfolio-list img {
-  width: 48px;
-  height: 48px;
+.list img {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
   vertical-align: middle;
-}
-
-#portfolio-list span {
-  font-size: x-large;
-  vertical-align: middle;
-  margin-left: 8px;
-}
-
-#portfolio-list li {
-  margin: 16px 0 16px 0;
 }
 
 hr {
@@ -347,18 +322,24 @@ section.slides-container {
   #list-inner-container {
     text-align: center;
     background-color: #FAFAFA;
-    padding: 16px 16px 8px 16px;
+    padding: 16px 0px 8px 0px;
     margin: 64px auto 0 auto;
     max-width: 100%;
     width: 600px;
     box-sizing: border-box;
   }
 
-  ul.list {
-    list-style-type: none;
-    text-align: left;
-    padding-left: 32px;
-    padding-right: 32px;
+  .list a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 8px 56px 16px 56px;
+  }
+
+  .list img {
+    width: 72px;
+    height: 72px;
+    margin-right: 32px;
+    vertical-align: middle;
   }
 }
-
