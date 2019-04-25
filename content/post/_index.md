@@ -1,2 +1,5 @@
-Sometimes I write things.
+---
+title: "Blog"
+subtitle: "Sometimes I write things"
+---
 

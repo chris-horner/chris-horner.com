@@ -7,10 +7,10 @@
   </header>
 
   <div id="content-outer-container">
-    <div id="portfolio-list-inner-container">
-      <h2>Presentations</h2>
+    <div id="list-inner-container">
+      <h2>{{ .Title }}</h2>
+      <p class="subtitle">{{ .Params.subtitle }}</p>
       <hr/>
-      {{ .Content }}
       <ul class="list">
         {{ range .Data.Pages }}
         <li>
