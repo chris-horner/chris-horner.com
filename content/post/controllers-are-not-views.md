@@ -99,7 +99,7 @@ class SomePresenter(view: View) : Consumer<State> {
 }
 ```
 
-This lets your hold non-null, read only references to sub-Views that will get garbage collected at the correct time
+This lets you hold non-null, read only references to sub-Views that will get garbage collected at the correct time
 (so long as you manage what's holding on to the `Presenter`). Here's an example using RxJava to be trendy:
 
 ```kotlin
