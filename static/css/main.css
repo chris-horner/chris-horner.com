@@ -181,6 +181,31 @@ hr {
   border-right: 0;
 }
 
+blockquote {
+  background: #EEEEEE;
+  border-left: 8px solid #CCCCCC;
+  padding: 16px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+blockquote:before {
+  color: #CCCCCC;
+  content: open-quote;
+  position: absolute;
+  margin-left: -0.6em;
+}
+
+blockquote:after {
+  color: #CCCCCC;
+  content: close-quote;
+  position: absolute;
+}
+
+blockquote p {
+  display: inline;
+}
+
 .subtitle {
   text-align: center;
   color: #757575;
@@ -210,16 +235,16 @@ span#date {
   font-style: italic;
 }
 
-code:not(.language-java) {
+code {
+  font-family: "Monaco", "Oxygen Mono", "Lucida Console", monospace;
+  font-size: medium;
+}
+
+code:not(.language-java):not(.language-kotlin):not(.language-xml) {
   background-color: #EEEEEE;
   color: #03A9F4;
   padding-left: 2px;
   padding-right: 2px;
-}
-
-code {
-  font-family: "Monaco", "Oxygen Mono", "Lucida Console", monospace;
-  font-size: medium;
 }
 
 pre {

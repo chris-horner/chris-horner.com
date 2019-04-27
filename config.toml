@@ -1,7 +1,7 @@
 baseURL = "https://chrishorner.codes"
 languageCode = "en-au"
 title = "Chris Horner"
-pygmentsStyle = "friendly"
+pygmentsStyle = "manni"
 pygmentsUseClasses = false
 pygmentsCodefences = true
 
