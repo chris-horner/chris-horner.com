@@ -1,7 +1,7 @@
 ---
 title: "Traffic Worker"
 date: "2016-05-12T09:00:00+10:00"
-blurb: "Uber, but for traffic managers."
+summary: "Uber, but for traffic managers."
 icon: "traffic-launcher.png"
 screens: ["traffic-screen1.png", "traffic-screen2.png"]
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Kite"
 date: "2017-05-24T09:00:00+10:00"
-blurb: "Lone worker safety and session management."
+summary: "Lone worker safety and session management."
 icon: "kite-launcher.png"
 screens: ["kite-screen1.png", "kite-screen2.png"]
 draft: false

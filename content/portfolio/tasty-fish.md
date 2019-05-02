@@ -1,7 +1,7 @@
 ---
 title: "Tasty Fish"
 date: "2011-03-01T09:00:00+10:00"
-blurb: "A game about keeping some fish alive."
+summary: "A game about keeping some fish alive."
 icon: "tasty-fish-launcher.png"
 screens: ["tasty-fish-screen1.png"]
 draft: false

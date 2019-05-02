@@ -1,7 +1,7 @@
 ---
 title: "Lone Driver"
 date: "2016-07-07T09:00:00+10:00"
-blurb: "Keeping drivers safe in the deserts of WA."
+summary: "Keeping drivers safe in the deserts of WA."
 icon: "lone-driver-launcher.png"
 screens: ["lone-driver-screen1.png", "lone-driver-screen2.png"]
 draft: false

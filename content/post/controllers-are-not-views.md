@@ -1,7 +1,7 @@
 ---
 title: "Controllers Aren't Views"
 date: 2019-04-25T21:49:35+10:00
-blurb: "Many treat Conductor's Controller class as a view, but I think that has issues."
+summary: "Many treat Conductor's Controller class as a view, but I think that has issues."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Emergency AUS"
 date: "2013-07-03T09:00:00+10:00"
-blurb: "Emergency information; Australia wide."
+summary: "Emergency information; Australia wide."
 icon: "emergency-aus-launcher.png"
 screens: ["emergency-aus-screen1.png", "emergency-aus-screen2.png"]
 draft: false

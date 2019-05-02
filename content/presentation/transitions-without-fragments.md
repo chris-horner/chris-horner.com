@@ -1,6 +1,7 @@
 ---
 title: "Transitions Without Activities or Fragments"
 date: 2017-11-05T11:30:00-08:00
+summary: "How to use and debug Android's Transitions."
 conference: "Droidcon SF"
 conferenceLink: "https://sf.droidcon.com"
 location: "San Francisco, CA, USA"

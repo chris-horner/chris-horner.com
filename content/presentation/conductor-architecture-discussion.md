@@ -1,6 +1,7 @@
 ---
 title: "Conductor: Architecture and Alternatives"
 date: 2018-06-27T19:30:00+10:00
+summary: "Talk about Conductor as an alternative to architecture components."
 conference: "Melbourne Android GDG"
 conferenceLink: "https://www.gdgmelbourne.com/"
 location: "Melbourne, VIC, Australia"

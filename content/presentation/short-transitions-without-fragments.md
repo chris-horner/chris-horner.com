@@ -1,6 +1,7 @@
 ---
 title: "Condensed Transitions Without Fragments"
 date: 2018-01-24T19:00:00+11:00
+summary: "Smaller version of my transitions talk."
 conference: "Melbourne Android GDG"
 conferenceLink: "https://www.gdgmelbourne.com/"
 location: "Melbourne, VIC, Australia"
