@@ -1,7 +1,8 @@
 baseURL = "https://chrishorner.codes"
 languageCode = "en-au"
 title = "Chris Horner"
+author = "Chris Horner"
 pygmentsStyle = "manni"
 pygmentsUseClasses = false
 pygmentsCodefences = true
-
+disableKinds = ["taxonomy", "taxonomyTerm"]
