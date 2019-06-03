@@ -10,7 +10,7 @@ appear to be widely used
 [or loved](https://www.reddit.com/r/androiddev/comments/73x84q/im_done_with_the_android_transitions_api/) by many
 developers. It sometimes requires esoteric knowledge (`android:transitionGroup="false"` I'm looking at you), and
 can be quite challenging to debug. After all, when something goes wrong and your views are just popping into place
-rather than animating nicely how're you meant to diagnose the issue?
+rather than animating nicely, how're you meant to diagnose the issue?
 
 It's a shame the API isn't as easy to use as something like
 [MotionLayout](https://developer.android.com/reference/android/support/constraint/motion/MotionLayout), however its your
@@ -39,7 +39,7 @@ To get up to speed on how to use transitions I highly recommend
 presenters do a great job of diving into how to achieve particular effects.
 
 If you want something that steps you through the API and demonstrates some of the issues you might encounter along the
-way then you can check out [my presentation](https://www.youtube.com/watch?v=9Y5cbC5YrOY) from Droidcon SF 2017.
+way, then check out [my presentation](https://www.youtube.com/watch?v=9Y5cbC5YrOY) from Droidcon SF 2017.
 
 One of the best sample projects Google have provided that showcases material transitions is
 [Plaid](https://github.com/android/plaid). It's a fairly feature packed app that consumes and presents data from
