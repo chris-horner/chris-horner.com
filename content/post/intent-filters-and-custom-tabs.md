@@ -85,3 +85,7 @@ And voila, our app opened successfully.
 <strong>TL, DR</strong>: Intent filters will only work in Custom Tabs if the user has _already_ said they'd like your
 app to be the default handler for a particular type of link. If they haven't yet committed to that kind of relationship
 then redirects to your URL inside a Custom Tab will fail.
+
+To circumvent the issue I ended up creating an additional intent filter for the redirect URL. That URL now opens our
+app, checks if it redirects to a URL we actually want to handle, and then either consumes it or passes it on to a
+browser. Not the most elegant solution, so if anyone out there knows of something better, please get in touch!
