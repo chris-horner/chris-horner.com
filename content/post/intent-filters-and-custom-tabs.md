@@ -19,7 +19,7 @@ Obviously, it wasn't going to be quite so simple. After giving the feature a cra
 informed me that deep linking wasn't working as expected. Apparently after tapping on a URL it was simply opening the
 browser and never launching our app. I asked the standard set of questions any Android developer might ask:
 
-- What device as you using? Is it a Samsung?
+- What device are you using? Is it a Samsung?
 - What version of Android is it running?
 - Did you tell the OS to always open these links with the browser?
 
