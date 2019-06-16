@@ -233,6 +233,13 @@ h2 {
   margin-bottom: 0;
 }
 
+figcaption {
+  text-align: center;
+  color: #757575;
+  font-size: small;
+  margin-top: 4px;
+}
+
 span#date {
   color: #757575;
   font-size: small;
