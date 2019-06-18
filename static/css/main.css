@@ -225,6 +225,7 @@ blockquote p {
 
 .screen {
   max-width: 100%;
+  align-self: center;
   padding: 8px 0px 8px 0px;
 }
 
@@ -348,6 +349,7 @@ section.slides-container {
 
   .screen {
     max-width: 45%;
+    align-self: center;
     padding: 8px 0px 8px 0px;
   }
 
