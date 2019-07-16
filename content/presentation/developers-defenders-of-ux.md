@@ -5,7 +5,7 @@ summary: "Developers are in a unique position to be the last guadians of quality
 conference: "Melbourne Android GDG"
 conferenceLink: "https://www.gdgmelbourne.com/"
 location: "Melbourne, VIC, Australia"
-youtube: ""
+youtube: "https://www.youtube.com/embed/YeOgL22rwSQ"
 speakerdeck: "https://speakerdeck.com/player/d0efcc6aa90d4be783d6939ebddafc68"
 draft: false
 ---
