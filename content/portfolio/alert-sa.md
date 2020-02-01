@@ -7,8 +7,7 @@ screens: ["alert-sa-screen1.png", "alert-sa-screen2.png"]
 draft: false
 ---
 
-At [Gridstone](https://gridstone.com.au), I built the first version of the Alert SA Android for the South Australian Government. This was part of a suite of applications we delivered, including an iOS app, website and backend. The service aimed to deliver information and warnings to those living in South Australia,
-allowing users to browse nearby events and set up watch zones.
+At [Gridstone](https://gridstone.com.au), I built the first version of Alert SA Android for the South Australian Government. This was part of a suite of applications we delivered, including an iOS app, website and backend. The service aimed to deliver information and warnings to those living in South Australia, allowing users to browse nearby events and set up watch zones.
 
 This app was the first I designed and developed with Google's [material design](https://design.google.com/) spec in mind. It also allowed me to make use of the latest libraries and tools at the time.
 
