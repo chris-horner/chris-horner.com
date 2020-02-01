@@ -7,20 +7,9 @@ screens: ["alert-sa-screen1.png", "alert-sa-screen2.png"]
 draft: false
 ---
 
-At [Gridstone](https://gridstone.com.au), I built the Alert SA Android app as part
-of a suite of applications for the South Australian Government. My colleagues also
-developed a [website](https://www.alert.sa.gov.au) and an
-[iOS app](https://itunes.apple.com/us/app/alert-sa/id998243397?ls=1&mt=8). The
-service aims to deliver information and warnings to those living in South Australia,
+At [Gridstone](https://gridstone.com.au), I built the first version of the Alert SA Android for the South Australian Government. This was part of a suite of applications we delivered, including an iOS app, website and backend. The service aimed to deliver information and warnings to those living in South Australia,
 allowing users to browse nearby events and set up watch zones.
 
-This app was the first I designed and developed with Google's
-[material design](https://design.google.com/) spec in mind. It also allowed me to
-make use of the very latest libraries and tools, and serves as a fine example of a
-modern Android Application.
+This app was the first I designed and developed with Google's [material design](https://design.google.com/) spec in mind. It also allowed me to make use of the latest libraries and tools at the time.
 
-Unfortunately this application is no longer maintained by Gridstone, and development
-effort has since shifted to another company. The app can still be found in
-[Google Play](https://play.google.com/store/apps/details?id=au.gov.alert.sa),
-however the design and implementation has been replaced wholesale.
-
+Unfortunately this application is no longer maintained by Gridstone. Development was shifted to a company who offered a lower rate for development and maintenance. Gridstone's suite (including the Android app I built) was replaced wholesale. The service was [ultimately scrapped](https://www.abc.net.au/news/2018-01-08/alert-sa-app-scrapped-after-failing-during-serious-bushfire/9310520) after catastrophic issues arose with the new implementation. Perhaps there's a lesson to be learnt about the danger of cutting costs on emergency services.
