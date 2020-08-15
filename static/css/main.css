@@ -225,6 +225,11 @@ ul.nav-list {
   box-sizing: border-box;
 }
 
+#content-inner-container p:not(.subtitle) {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 #list-inner-container {
   text-align: center;
   background-color: var(--content-container-colour);
@@ -316,7 +321,8 @@ blockquote p {
 .subtitle {
   text-align: center;
   color: var(--text-colour-secondary);
-  margin: 8px 0 16px 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .screen-collection {
@@ -385,7 +391,6 @@ pre {
 
 .signature {
   color: var(--text-colour-secondary);
-  font-size: small;
   font-style: italic;
 }
 
