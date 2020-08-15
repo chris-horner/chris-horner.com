@@ -20,14 +20,11 @@ only real option when you want to animate (and share) views when navigating from
     controls
     loop
     width="354px"
-    style="float: right; margin-left: 24px; max-width: 100%; display: inline;"
-    />
-
- <source
+    style="float: right; margin-left: 24px; max-width: 100%; display: inline;">
+    <source
      src="../../video/plaid_demo.mp4"
      type="video/mp4"
      />
-
 </video>
 
 If you battle through the learning curve and get your head around the API you'll be rewarded with the ability to make
