@@ -5,3 +5,5 @@ author = "Chris Horner"
 pygmentsUseClasses = true
 pygmentsCodefences = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
+[markup.goldmark.renderer]
+unsafe= true

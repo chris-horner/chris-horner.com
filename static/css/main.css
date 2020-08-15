@@ -36,6 +36,48 @@
   }
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -44,7 +86,7 @@ html, body {
 }
 
 body {
-  font-family: "Verdana", "Open Sans", "Helvetica", Sans-Serif;
+  font-family: "Inter", "Verdana", "Open Sans", "Helvetica", Sans-Serif;
   display: flex;
   flex-direction: column;
   background-color: var(--background-colour);
@@ -52,7 +94,8 @@ body {
 
 p {
   color: var(--text-colour-primary);
-  line-height: 1.5;
+  line-height: 1.4;
+  font-size: large;
 }
 
 h1, h4, h5, li {
@@ -61,6 +104,11 @@ h1, h4, h5, li {
 
 p > a {
   color: var(--link-colour);
+}
+
+li {
+  line-height: 1.4;
+  font-size: large;
 }
 
 #home {
@@ -72,13 +120,13 @@ p > a {
 
 #intro {
   text-align: center;
-  font-size: x-large;
   padding: 32px;
   flex: 1;
 }
 
 #intro > p {
   color: var(--text-colour-light);
+  font-size: x-large;
 }
 
 #home > header {
@@ -209,6 +257,15 @@ ul.list {
   color: var(--link-hover-colour);
 }
 
+.list h3 {
+  margin-bottom: 0px;
+}
+
+.list p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 .portfolio-item {
   display: flex;
   flex-direction: row;
@@ -279,6 +336,7 @@ h2 {
   text-align: center;
   color: var(--text-colour-primary);
   margin-bottom: 0;
+  font-size: xx-large;
 }
 
 figcaption {
@@ -295,7 +353,7 @@ span#date {
 }
 
 code {
-  font-family: "Monaco", "Oxygen Mono", "Lucida Console", monospace;
+  font-family: "JetBrainsMono", "Monaco", "Oxygen Mono", "Lucida Console", monospace;
   font-size: medium;
 }
 
@@ -317,11 +375,12 @@ pre {
 
 .highlight pre {
   overflow-x: auto;
-  padding: 12px;
+  padding: 24px 16px 24px 16px;
 }
 
 .highlight pre code {
   white-space: pre;
+  line-height: 1.3;
 }
 
 .signature {
