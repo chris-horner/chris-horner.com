@@ -111,6 +111,20 @@ li {
   font-size: large;
 }
 
+li > a {
+  color: var(--link-colour);
+}
+
+h4 {
+  color: var(--text-colour-primary);
+  font-size: x-large;
+}
+
+h5 {
+  color: var(--text-colour-primary);
+  font-size: large;
+}
+
 #home {
   background-color: var(--background-home-colour);
   background: url(../img/banner.jpg) no-repeat fixed;
@@ -363,7 +377,7 @@ code {
   font-size: medium;
 }
 
-code:not(.language-java):not(.language-kotlin):not(.language-xml) {
+code:not(.language-java):not(.language-kotlin):not(.language-xml):not(.language-sh) {
   background-color: var(--code-background-colour);
   color: var(--inline-code-colour);
   padding-left: 2px;
