@@ -123,6 +123,15 @@ h4 {
 h5 {
   color: var(--text-colour-primary);
   font-size: large;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h6 {
+  color: var(--text-colour-primary);
+  font-size: medium;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 #home {
