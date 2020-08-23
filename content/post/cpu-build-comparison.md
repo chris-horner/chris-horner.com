@@ -1,8 +1,8 @@
 ---
 title: "Comparing Android Build Times by CPU"
-date: 2020-08-22T15:00:49+10:00
+date: 2020-08-23T15:00:49+10:00
 summary: "Just how much of a difference does a beefy CPU make?"
-draft: true
+draft: false
 ---
 
 I know many in the community might crucify me for saying this, but I actually don't mind using a Windows machine for Android development; especially if it's my desktop. My two go-to tools are Android Studio and [Affinity Designer](https://affinity.serif.com/en-gb/), both of which run fine on Microsoft's OS.
@@ -15,7 +15,7 @@ Much of this stems from my interest in PC gaming. The allure of high refresh rat
 
 However the tool of choice for many Android developers seems to be a Macbook Pro, and I can see why. There's a lot to like about them. The build quality (excepting keyboard) is superb, the screen is fantastic, and they provide a Unix environment without the hassle of needing to recompile your kernel to get wifi working. (Linux burnt me a little).
 
-But when it came working on my own Android projects, I assumed I was better off making use of my gaming PC. I knew that a desktop grade CPU would outperform a laptop CPU, so compile times would _surely_ be better compared to a Macbook.
+But when it came to working on my own Android projects, I assumed I was better off making use of my gaming PC. I knew that a desktop grade CPU would outperform a laptop CPU, so compile times would _surely_ be better compared to a Macbook.
 
 But just how much performance difference is there? What kind of CPU do you need in a desktop to outperform a laptop? Will any mid range CPU be better? What about a monster, productivity focused CPU? I decided to do some digging.
 
@@ -173,7 +173,7 @@ But as we can see, that's not quite how this project scales. There's just not en
 
 Comparing the i7-8700K to the i9-8950HK, the desktop chip provides a 35% improvement.
 
-If we open [Intel's Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) during a full build of Tivi on the 2018 Macbook, we can see there are a couple instances where the CPU hits 100°C
+If we open [Intel's Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) during a full build of Tivi on the 2018 Macbook, we can see there are a couple instances where the CPU hits 100°C.
 
 This does make me wonder if we could eke out more performance if the processor had better cooling, but it didn't seem like the average clock frequency suffered too much with the power settings Apple have in place.
 
@@ -202,6 +202,6 @@ What makes this more viable is the global pandemic. Many of us are stuck working
 
 What if you want a new Android development machine?
 
-Unsurprisingly the Core i7-8700K and Ryzen 3600 consistently outperformed the Core i9-8950HK. At the time of writing the 3600 can be purchased new for 190 USD. Amazing when you consider how well it performed in comparison. You certainly get far more compute power per dollar if you're willing to sacrifice portability.
+Unsurprisingly the Core i7-8700K and Ryzen 3600 consistently outperformed the Core i9-8950HK. At the time of writing the 3600 can be purchased new for $190 US. Amazing when you consider how well it performed in comparison. You certainly get far more compute power per dollar if you're willing to sacrifice portability.
 
 There are many more CPUs out there that could be tested, and it's possible my usage of Gradle doesn't tell the whole story, but hopefully this exercise was as interesting for others as it was for me!
