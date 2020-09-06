@@ -1,19 +1,19 @@
 ---
 title: "Windows vs Linux Android Build Time"
-date: 2020-09-05T16:02:58+10:00
+date: 2020-09-06T15:11:00+10:00
 summary: "How much does your OS impact your build times?"
-draft: true
+draft: false
 ---
 
 After recently comparing [build times by CPU](../cpu-build-comparison), some [pointed out](https://www.reddit.com/r/androiddev/comments/if2i04/comparing_android_build_times_by_cpu/g2lk7of) that build times might be _greatly_ affected by the operating system. I was curious about this, and decided it was time for another benchmarking adventure.
 
-Ideally we'd compare Linux, Windows, and macOS on identical hardware. I considered using my 2018 Macbook and running Bootcamp for Windows, but unfortunately it looks like Apple's thermal throttling "fix" [only apply when running macOS](https://www.youtube.com/watch?v=7gJ8mGFjeqA&t=429), which wouldn't make for a fair fight.
+Ideally we'd compare Linux, Windows, and macOS on identical hardware. I considered using my 2018 Macbook and running Bootcamp for Windows, but unfortunately it looks like Apple's thermal throttling "fix" [only applies when running macOS](https://www.youtube.com/watch?v=7gJ8mGFjeqA&t=429), which wouldn't make for a fair fight.
 
 Instead, I decided to directly compare just Linux and Windows using the Ryzen 3950X. I _could_ have taken this a step further and made a hackintosh, but that much effort might be an exercise for another time.
 
 <img src="../../img/android_ssd_replacement.jpg" style="width: 100%; max-width: 100%;">
 
-Not wanting to mess with my existing Windows installation, I removed my current SSD and replaced it with a spare Kingston PCIe Gen 2.0 x4 M.2 SSD. I first installed Linux, then Windows onto the exact same disk when performing the tests.
+Not wanting to mess with my existing Windows installation, I removed my current SSD and replaced it with a spare Kingston PCIe Gen 2.0 x4 M.2 SSD. Not the fastest by today's standards, but hopefully fast enough. I first installed Linux, then Windows onto the exact same disk when performing the tests.
 
 For projects, I decided to again use [Tivi](https://github.com/chrisbanes/tivi) and [Socket Weather](https://github.com/chris-horner/SocketWeather/) as representatives of large and small codebases respectively. Like the previous post, the apps were built at the commits:
 
@@ -34,7 +34,7 @@ I'd also heard it was easy to install with Nvidia drivers out of the box. Great 
 
 #### Methodology
 
-After my previous round of tests, I've since learned I could have automated much of my testing with [gradle-profiler](https://github.com/gradle/gradle-profiler). In the future I'll definitely be using this tool, but in order to keep the data from this round of testing comparable to the previous round, I decided to follow the same process outlined in [the previous post](../cpu-build-comparison).
+After my previous round of tests, I've since learnt I could have automated much of my testing with [gradle-profiler](https://github.com/gradle/gradle-profiler). In the future I'll definitely be using this tool, but in order to keep the data from this round of testing comparable to the previous round, I decided to follow the same process outlined in [the previous post](../cpu-build-comparison).
 
 #### Results
 
@@ -96,4 +96,4 @@ However there's also software it can't run. (The lack of Affinity Designer is a 
 
 ---
 
-Thanks for following along with this little series. I might do more in the future that compares build times by RAM and disk speed, but I'll wrap this up for now.
+Thanks for following along with this little series. I might do more in the future that compares build times by RAM and disk speed, but I'll wrap this up for now. Again, if anyone has any suggestions or ideas for fairer and more accurate tests, I always appreciate the feedback.
