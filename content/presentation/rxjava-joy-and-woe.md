@@ -1,5 +1,5 @@
 ---
-title: "Rxjava: A Steam of Joy and Woe"
+title: "Rxjava: A Stream of Joy and Woe"
 date: 2018-10-27T14:00:00+11:00
 summary: "The times RxJava worked well, and the times we took it too far."
 conference: "DevFest Melbourne"
