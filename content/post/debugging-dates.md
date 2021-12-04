@@ -1,8 +1,8 @@
 ---
 title: "The Case of the Disappearing Days"
-date: 2021-12-04T10:54:39+11:00
+date: 2021-12-05T08:49:39+11:00
 summary: "We lost the day of the week. Where'd it go?"
-draft: true
+draft: false
 ---
 
 <img src="../../img/cash-chat-date.png" style="width: 320px; max-width: 100%; display: inline; float: right; margin-bottom: 8px; margin-left: 16px;">
