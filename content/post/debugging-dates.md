@@ -12,6 +12,7 @@ The team I work with at Cash came across an interesting bug. We display dates _e
 If the date is within the current week, instead of the date we display the name of the day. So if `28 July` were in the current week, we would instead display it as `Wednesday`.
 
 Formatting dates like this is simple thanks to the `java.time` API. [`DayOfWeek`](https://docs.oracle.com/javase/8/docs/api/java/time/DayOfWeek.html) is provided as an enum, complete with a [`getDisplayName()`](https://docs.oracle.com/javase/8/docs/api/java/time/DayOfWeek.html#getDisplayName-java.time.format.TextStyle-java.util.Locale-) method for easy formatting. A [`TextStyle`](https://docs.oracle.com/javase/8/docs/api/java/time/format/TextStyle.html) can be passed into this method to configure how this formatting will work. These styles are:
+
 - `FULL`
 - `FULL_STANDALONE`
 - `NARROW`
