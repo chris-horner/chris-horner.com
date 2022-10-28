@@ -4,7 +4,7 @@ date: 2019-06-26T19:00:00+10:00
 summary: "Developers are in a unique position to be the last guadians of quality UX."
 conference: "Melbourne Android GDG"
 conferenceLink: "https://www.gdgmelbourne.com/"
-location: "Melbourne, VIC, Australia"
+location: "Melbourne"
 youtube: "https://www.youtube.com/embed/YeOgL22rwSQ"
 speakerdeck: "https://speakerdeck.com/player/d0efcc6aa90d4be783d6939ebddafc68"
 draft: false

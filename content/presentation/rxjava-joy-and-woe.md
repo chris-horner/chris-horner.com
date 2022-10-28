@@ -4,7 +4,7 @@ date: 2018-10-27T14:00:00+11:00
 summary: "The times RxJava worked well, and the times we took it too far."
 conference: "DevFest Melbourne"
 conferenceLink: "https://www.gdgmelbourne.com/devfest-2018/"
-location: "Melbourne, VIC, Australia"
+location: "Melbourne"
 youtube: "https://www.youtube.com/embed/vCANBr2pyd8"
 speakerdeck: "https://speakerdeck.com/player/e2687c72f545490793517fecefb87d61"
 draft: false

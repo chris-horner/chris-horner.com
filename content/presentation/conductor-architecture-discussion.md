@@ -4,7 +4,7 @@ date: 2018-06-27T19:30:00+10:00
 summary: "Talk about Conductor as an alternative to architecture components."
 conference: "Melbourne Android GDG"
 conferenceLink: "https://www.gdgmelbourne.com/"
-location: "Melbourne, VIC, Australia"
+location: "Melbourne"
 youtube: "https://www.youtube.com/embed/ZY7OvQ75n-A"
 speakerdeck: "https://speakerdeck.com/player/a5f13ef5422846b1a197bd55415c67ee"
 draft: false

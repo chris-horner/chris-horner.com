@@ -4,7 +4,7 @@ date: 2019-11-09T10:00:00+11:00
 summary: "A collection of throughts around building user interfaces for Android."
 conference: "DevFest Melbourne"
 conferenceLink: "https://www.gdgmelbourne.com/devfest"
-location: "Melbourne, VIC, Australia"
+location: "Melbourne"
 youtube: "https://www.youtube.com/embed/PVGNWV5noTw"
 speakerdeck: "https://speakerdeck.com/player/ee88a5c6e2264642ba1a38ecc6843f99"
 draft: false

@@ -4,7 +4,7 @@ date: 2017-11-05T11:30:00-08:00
 summary: "How to use and debug Android's Transitions."
 conference: "Droidcon SF"
 conferenceLink: "https://sf.droidcon.com"
-location: "San Francisco, CA, USA"
+location: "San Francisco"
 youtube: "https://www.youtube.com/embed/9Y5cbC5YrOY"
 speakerdeck: "https://speakerdeck.com/player/ffeac29f27a849f5991a892c8fccf42e"
 draft: false
