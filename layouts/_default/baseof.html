@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css" type="text/css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/syntax.css" type="text/css">
     <link rel="alernate" href="{{ .Site.BaseURL }}/index.xml" type="application/rss+xml" >
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:description" content="{{ .Page.Summary }}"/>
+    <meta property="og:image" content="{{ if .Params.banner }}{{ .Site.BaseURL }}/img/{{ .Params.banner }}{{ else }}{{ .Site.BaseURL }}/img/default_banner.jpg{{ end }}"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:locale" content="en_AU"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@chris_h_codes" />
+    <meta name="twitter:title" content="{{ .Title }}"/>
+    <meta name="twitter:description" content="{{ .Page.Summary }}"/>
+    <meta name="twitter:image" content="{{ if .Params.banner }}{{ .Site.BaseURL }}/img/{{ .Params.banner }}{{ else }}{{ .Site.BaseURL }}/img/default_banner.jpg{{ end }}"/>
   </head>
   {{ block "main" . }}
 
