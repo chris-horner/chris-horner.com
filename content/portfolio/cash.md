@@ -9,4 +9,4 @@ draft: false
 
 I joined the [Cash App](https://code.cash.app/) Android team in February of 2021 and have had a blast working with some of the best in the business.
 
-I currently work in the Support team, where we build out features such as an-app chat and incident notifications.
+Starting out on the in-app support experience, I now work as the Android lead on the Design Systems team.
